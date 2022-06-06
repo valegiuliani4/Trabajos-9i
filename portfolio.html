@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/a531f33bb9.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <nav>
+        
+      <div>
+        <i class="fa-solid fa-hand-sparkles"></i>
+        <a class="nav-link" href="#Acerca de Mi">Acerca de mí</a>
+        
+      </div>
+      <div>
+        <i class="fa-solid fa-book"></i>
+        <a class="nav-link" href="#Portfolio">Portfolio</a>
+
+      </div>
+      <div>
+        <i class="fa-solid fa-phone"></i>
+        <a class="nav-link" href="#Contacto">Contacto</a>
+      </div>
+        
+    </nav>
+    
+  <header>
+    <div class="hero-content"><h1>Este es mi Portfolio</h1></div>
+    <div id="Acerca de Mi">
+      
+      <h2 class="titulo"><i class="fa-solid fa-hand-sparkles"></i> Acerca de mí</h2>
+      
+        <article> <div class="foto-mia"> <img src= "IMG_20220521_171241_733.jpg" alt="" width="60px"></div>
+          <p>Mi nombre es Valentina Giuliani, soy estudiante de Rolling y espero ser egresada tambien jaja. Me gusta mucho la programacion, lo descubri recien al iniciar mi cursado asi que me encuentro muy emocionada. Me gusta tambien el diseño de paginas y la fisica, nada que ver todo pero bueno, soy una mezcla de cosas jaja. Amante de la musica y de las mascotas. Saludos.</p>
+        </article>
+    </div>
+    <h2 class="titulo"><i class="fa-solid fa-book"></i> Portfolio</h2>
+    <div id="Portfolio" class="conteiner">
+        
+        <div class="proyectos">
+          <b><article>Titulo del proyecto</article></b>
+          <p>Descripción del proyecto</p>
+          <a class="url" href="url">Enlace al proyecto</a>
+        </div>
+        <div class="proyectos">
+          <b><article>Titulo del proyecto</article></b>
+          <p>Descripción del proyecto </p>
+          <a class="url" href="url">Enlace al proyecto</a>
+      
+        </div>
+        <div class="proyectos">
+          <b><article>Titulo del proyecto</article></b>
+          <p>Descripción del proyecto</p>
+          <a class="url" href="url">Enlace al proyecto</a>
+        </div>
+    </div>
+  </header>
+    <footer id="Contacto">
+        <h2> <i class="fa-solid fa-phone"></i> Contacto</h2>
+        <form
+          action="https://formspree.io/f/xnqolora"
+          method="POST">
+           <label for="name"> Nombre y Apellido
+              <input type="text" name="name" required/>
+          </label> <br><br><br>
+          <label>
+            Mail:
+            <input type="email" name="email" placeholder="direccion@mail.com" required/>
+          </label> <br><br><br>
+          <label>
+            Su mensaje:
+            <br><textarea name="message" placeholder="Motivo de su contacto" required></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit">Enviar</button>
+        </form>
+        <br /><br /><br />
+    </footer>
+</body>
+</html>
