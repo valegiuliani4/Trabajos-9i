@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0%;
 }
 nav{
     display: flex;
@@ -18,13 +19,35 @@ nav{
 }
 .hero-content{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-conteiner{
+    display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(https://www.muycomputerpro.com/wp-content/uploads/2019/12/libros.jpg);
     width: 100%;
-    height: 20vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
+}
+.conocenos-btn{
+    background-color: rgba(0, 0, 0, 0,2);
+    color: black ;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.conocenos-btn:hover{
+    background-color: white;
+    color: #124f54;
+}
+.conocenos-btn:active{
+    background-color: #124f54;
+    color: white;
 }
 .titulo{
     display: flex;
@@ -68,6 +91,6 @@ div img{
 footer{
     background-color: #797673;
     color: black;
-    padding: 20vh;
+    padding: 5vh;
     margin-top: auto;
 }
