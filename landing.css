@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #f4eb98;
+    color: black;
+}
+.navbar-brand img{
+    height: 7vh;
+    width: auto;
+}
+.home-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/originals/d8/c5/42/d8c54201a71751f1dfaa7f3dac627672.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.home-content{
+    color: white;
+    flex-direction: column;
+}
+.conocenos-btn{
+    background-color: #f4eb98;
+    color: black ;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-header{
+    background-color: #f4eb98;
+    color: black;
+}
+.btn{
+    background-color: #e7853f;
+}
+footer{
+    background-color:#f4eb98 ;
+    margin-top: auto;
+}

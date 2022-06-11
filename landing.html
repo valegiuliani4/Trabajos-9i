@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="landing.css">
+    <script src="https://kit.fontawesome.com/a531f33bb9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="horizontal_on_white_by_logaster.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fotos">Peludos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <main>
+        <div class="home-conteiner" id="home">
+
+           <div class="home-content d-flex justify-content-center align-items-center">
+            <h1>Hola, somos ANIMALS</h1>
+
+            <button class="conocenos-btn">
+               <a href="#info">Conoce más AQUÍ!</a></button>
+           </div> 
+
+        </div>
+        <div class="card text-center h-50 py-5" id="info">
+            <div class="card-header">
+              Animals
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">¡Encontra a tu mascota ideal!</h5>
+              <p class="card-text">Somos la empresa lider en adopcion responsable de mascotas.</p>
+              <p>Sabemos lo mucho que un peludo puede representar en la familia, por lo tanto nuestro trabajo es mantener saludable al futuro mimado de casa.</p> 
+              <a href="#fotos" class="btn">Conoce algunos de ellos</a>
+              
+            </div>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel carousel-dark slide px-3 py-5" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" id="fotos">
+              <div class="carousel-item active">
+                <img src="https://cf.ltkcdn.net/dogs/images/std/284960-800x533-owners-handbook-miniature-schnauzers.jpg" class="d-block w-100 h-25" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b>Piluso</b></h5>
+                  <p>Edad: 5 años-Raza: Shnauzer-Caracteristicas: Un perrito muy tranquilo y educado, ideal para familias con niños. Sabe hacer sus necesidades fuera de casa.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2019/02/06/15/18/puppy-3979350__480.jpg" class="d-block w-100 h-25" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b>Titan</b></h5>
+                  <p>Edad: 1 año-Raza: Caniche-Caracteristicas: Su propio nombre lo define y su cara lo delata. Muy reboltoso y jugueton, amante de los peluches. Todavia no sabe hacer sus necesidades en el lugar que corresponde, pero con mucho amor aprenderá.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://miro.medium.com/max/800/1*otu_l6kwSn-L-WhRaFcQIQ.jpeg" class="d-block w-100 h-25" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b>Don Satur</b></h5>
+                  <p>Edad: 7 años. Raza: Sharpei. Caracteristicas: Excelente mascota para cualquier tipo de familia. Super familiero y fiel, ama a los niños. Sabe todo tipo de modales.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+
+    </main>
+    <footer id="contacto">
+        <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                <h3>Consultas:</h3>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+              </div>
+              <div class="col">
+                <h3>Redes Sociales</h3>
+                <div>
+                    <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                    <a href="https://www.whatsapp.com/?lang=es"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+                </div>
+              </div>
+              <div class="col">
+                <h3>Encontranos</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56958.02817920032!2d-65.26876556874998!3d-26.84387179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225bf7f7797119%3A0xb474a29bb00e67d4!2sVeterinaria%20Espacio%20Animal!5e0!3m2!1ses!2sar!4v1654932301236!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
