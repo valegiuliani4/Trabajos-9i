@@ -1,3 +1,13 @@
+@media screen { iframe{
+width: 100%;
+height: auto;
+}
+h1{
+    width: 100%;
+    height: auto;
+}
+    
+}
 .navbar{
     background-color: #f4eb98;
     color: black;
@@ -37,4 +47,7 @@
 footer{
     background-color:#f4eb98 ;
     margin-top: auto;
+}
+li{
+    color: #f4eb98;
 }
