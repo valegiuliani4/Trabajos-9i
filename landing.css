@@ -6,6 +6,11 @@ h1{
     width: 100%;
     height: auto;
 }
+li{
+    padding: 0vh;
+    display: flex;
+    justify-content: flex-start;
+}
     
 }
 .navbar{
