@@ -1,7 +1,4 @@
-@media screen { iframe{
-width: 100%;
-height: auto;
-}
+@media screen {
 h1{
     width: 100%;
     height: auto;
@@ -11,7 +8,6 @@ li{
     display: flex;
     justify-content: flex-start;
 }
-    
 }
 .navbar{
     background-color: #f4eb98;
